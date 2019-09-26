@@ -4,3 +4,7 @@ function writeCards(names, event_name){
   }
   return
 }
+
+function countDown(num) {
+  console.log(num--);
+}
