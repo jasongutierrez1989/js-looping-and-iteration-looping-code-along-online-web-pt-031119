@@ -6,5 +6,7 @@ function writeCards(names, event_name){
 }
 
 function countDown(num) {
-  console.log(num--);
+  while (num >=0) {
+    console.log(num--);
+  }
 }
